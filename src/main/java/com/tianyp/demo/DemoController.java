@@ -17,6 +17,7 @@ public class DemoController {
         
     @RequestMapping(value="/holle",method = RequestMethod.GET)
     public String say(){
+        System.out.println("123");
         return "holle  word"+size;
     }
 }
